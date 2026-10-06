@@ -1,6 +1,6 @@
 import type { RegisterForm } from "../types/RegisterForm";
 
-const API_URL = "http://localhost:8080/api/members";
+const API_URL = "http://localhost:8080/auth/login";
 
 export async function registerMember(form: RegisterForm) {
   console.log(`WTF ${JSON.stringify(form)}`);

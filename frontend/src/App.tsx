@@ -10,6 +10,8 @@ import Page7 from "./pages/harry07";
 import Page8 from "./pages/harry08";
 import Page9 from "./pages/harry09";
 import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/Login";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/page8" element={<Page8 />} />
         <Route path="/page9" element={<Page9 />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/home" element={<HomePage />} />
       </Routes>
     </div>
   );
