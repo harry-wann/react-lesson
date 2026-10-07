@@ -6,9 +6,9 @@ export type Gift = {
 };
 
 export type Gifts = {
+  data: Gift[];
   total: number;
   totalPage: number;
   page: number;
   isLast: boolean;
-  payload: Gift[];
 };

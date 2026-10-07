@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Member } from "../types/Member";
+import GiftList from "../components/home/GiftList";
 
 export default function HomePage() {
   const memberJson = localStorage.getItem("member");
@@ -12,6 +13,8 @@ export default function HomePage() {
       <hr />
       <h2>Welcome, {member?.name}</h2>
       <hr />
+
+      <GiftList />
     </main>
   );
 }
